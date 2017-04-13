@@ -1,2 +1,5 @@
 # Exclude local virtualenv for development
 venv-sfam
+
+# Exclude Jupyter intermediate files
+.ipynb_checkpoints/
