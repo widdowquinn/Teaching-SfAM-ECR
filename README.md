@@ -1,4 +1,4 @@
-# SfAM ECR 2017 Presentation and Workshop
+# SfAM ECS 2017 Presentation and Workshop
 
 ## Table of Contents
 
@@ -9,10 +9,23 @@
 
 <a id="introduction"></a>
 ## Introduction
-Welcome to the "Not All Bioinformatics is NGS@ part of the SfAM ECR symposium. This document describes the contents of this repository, provides useful links, and instructions for how to reproduce the workshop materials on your own machine, or run it in the cloud.
+Welcome to the "Not All Bioinformatics is NGS" part of the SfAM ECS symposium. This page describes the contents of the repository, provides useful links, and instructions for how to reproduce and run the workshop materials on your own machine, or run them in the cloud.
 
 <a id="schedule"></a>
 ## Schedule
+* [[poster]](posters/SfAM_Bioinformatics_A4.pdf)
+
+| Time          | Activity                                         |
+| ------------- | ------------------------------------------------ |
+| 10:00 - 11:00 | Registration                                     |
+| 10:30 - 11:00 | Posters & Refreshments                           |
+| 11:00 - 12:00 | Student oral presentations (4x 15 min slots)     |
+| 12:00 - 13:00 | Introduction to Bioinformatics (2x 30 min slots) |
+| 13:00 - 14:00 | Posters, Exhibitions, and Lunch                  |
+| 14:00 - 15:30 | Workshop 1                                       |
+| 15:30 - 16:00 | Posters & Refreshments                           |
+| 16:00 - 17:30 | Workshop 2                                       |
+| 17:30 - 18:00 | Conference Close (Prizes & Networking)           |
 
 <a id="mybinder"></a>
 ## Run Workshop in the Cloud on MyBinder
