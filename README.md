@@ -34,7 +34,7 @@ Setting up the course materials to run on your own machine involves following st
 
 To install and run these materials locally, you will require:
 
-* The Anaconda Python distribution [download](https://www.continuum.io/downloads)
+* The Anaconda Python distribution [[download]](https://www.continuum.io/downloads)
 
 ### Download the materials
 
