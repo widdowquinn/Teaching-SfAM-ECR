@@ -27,7 +27,26 @@ Welcome to the "Not All Bioinformatics is NGS" part of the SfAM ECS symposium. T
 | 16:00 - 17:30 | Workshop 2                                       |
 | 17:30 - 18:00 | Conference Close (Prizes & Networking)           |
 
+<a id="presentations"></a>
+# Presentations
+
+The links below will take you to the presentations in an interactive form, in your browser.
+
+* [Reproducible Research](http://presentations/slides01-reproducible_research.html)
+
 <a id="mybinder"></a>
+
+<a id="notebooks"></a>
+# Workshop Notebooks
+
+The links below will take you to the workshop notebooks in static form, in your browser.
+
+* [**00 - Introduction to Jupyter**](workshop/00-jupyter_intro.ipynb)
+* [**01 - Thinking Statistically**](workshop/01-thinking_statistically.ipynb)
+* [**02 - Automation**](workshop/02-automation.ipynb)
+* [**03 - Integrating Data**](workshop/03-integrating_data.ipynb)
+
+
 ## Run Workshop in the Cloud on MyBinder
 
 MyBinder is a cloud-based service that allows you to run Jupyter notebooks on someone else's hardware. This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
