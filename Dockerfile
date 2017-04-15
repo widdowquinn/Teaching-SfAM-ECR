@@ -18,10 +18,10 @@ RUN echo "c.NotebookApp.token = ''" >> $HOME/.jupyter/jupyter_notebook_config.py
 RUN /home/main/anaconda/envs/python3/bin/pip install -r requirements.txt
 
 # Install ipywidgets under conda
-RUN 
+RUN conda config --add channels conda-forge
+RUN conda install -y ipywidgets widgetsnbextension
 
 # Enable widgets extension
-RUN conda install -y -c conda-forge ipywidgets widgetsnbextension
 RUN /home/main/anaconda/envs/python3/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
 
 # Add new kernel
