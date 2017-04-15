@@ -3,3 +3,10 @@ venv-sfam
 
 # Exclude Jupyter intermediate files
 .ipynb_checkpoints/
+
+# Exclude Emacs intermediate files
+*~
+*#
+
+# Exclude library imports
+*.pyc
