@@ -41,15 +41,14 @@ The links below will take you to the presentations in an interactive form, in yo
 
 The links below will take you to the workshop notebooks in static form, in your browser.
 
-* [**index page**](./html_notebooks/index.html)
-* [**00 - Introduction to Jupyter**](./html_notebooks/00-jupyter_intro.html) 
-* [**01 - Thinking Statistically**](./html_notebooks/01-thinking_statistically.html)
-  * [**01a - Correlations**](./html_notebooks/01a-correlations.html)
-  * [**01b - Classifiers**](./html_notebooks/01b-clasifiers.html)
-* [**02 - Automation**](./html_notebooks/02-automation.html)
-  * [**02a - Python Basics**](./html_notebooks/02a-python.html)
-  * [**02b - Automating BLAST**](./html_notebooks/02b-blast.html)
-* [**03 - Integrating Data**](./html_notebooks/03-integrating_data.html)
+* [**00 - Introduction to Jupyter**](./blob/master/workshop/00-jupyter_intro.ipynb) 
+* [**01 - Thinking Statistically**](./blob/master/workshop/01-thinking_statistically.html)
+  * [**01a - Correlations**](./blob/master/workshop/01a-correlations.html)
+  * [**01b - Classifiers**](./blob/master/workshop/01b-clasifiers.html)
+* [**02 - Automation**](./blob/master/workshop/02-automation.html)
+  * [**02a - Python Basics**](./blob/master/workshop/02a-python.html)
+  * [**02b - Automating BLAST**](./blob/master/workshop/02b-blast.html)
+* [**03 - Integrating Data**](./blob/master/workshop/03-integrating_data.html)
 
 
 ## Run Workshop in the Cloud on MyBinder
