@@ -10,3 +10,6 @@ venv-sfam
 
 # Exclude library imports
 *.pyc
+
+# Exclude exercise output
+workshop/data/blast/output/
