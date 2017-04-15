@@ -32,7 +32,7 @@ Welcome to the "Not All Bioinformatics is NGS" part of the SfAM ECS symposium. T
 
 The links below will take you to the presentations in an interactive form, in your browser.
 
-* [Reproducible Research](http://presentations/slides01-reproducible_research.html)
+* [Reproducible Research](presentations/slides01-reproducible_research.html)
 
 <a id="mybinder"></a>
 
@@ -41,10 +41,15 @@ The links below will take you to the presentations in an interactive form, in yo
 
 The links below will take you to the workshop notebooks in static form, in your browser.
 
-* [**00 - Introduction to Jupyter**](workshop/00-jupyter_intro.ipynb)
-* [**01 - Thinking Statistically**](workshop/01-thinking_statistically.ipynb)
-* [**02 - Automation**](workshop/02-automation.ipynb)
-* [**03 - Integrating Data**](workshop/03-integrating_data.ipynb)
+* [**index page**](./html_notebooks/index.html)
+* [**00 - Introduction to Jupyter**](./html_notebooks/00-jupyter_intro.html) 
+* [**01 - Thinking Statistically**](./html_notebooks/01-thinking_statistically.html)
+  * [**01a - Correlations**](./html_notebooks/01a-correlations.html)
+  * [**01b - Classifiers**](./html_notebooks/01b-clasifiers.html)
+* [**02 - Automation**](./html_notebooks/02-automation.html)
+  * [**02a - Python Basics**](./html_notebooks/02a-python.html)
+  * [**02b - Automating BLAST**](./html_notebooks/02b-blast.html)
+* [**03 - Integrating Data**](./html_notebooks/03-integrating_data.html)
 
 
 ## Run Workshop in the Cloud on MyBinder
