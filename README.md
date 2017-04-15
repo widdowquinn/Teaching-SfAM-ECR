@@ -32,25 +32,24 @@ Welcome to the "Not All Bioinformatics is NGS" part of the SfAM ECS symposium. T
 
 The links below will take you to the presentations in an interactive form, in your browser.
 
-* [Reproducible Research](presentations/slides01-reproducible_research.html)
+* [Reproducible Research](https://widdowquinn.github.io/Teaching-SfAM-ECS/presentation/slides01-reproducible_research.html)
 
-<a id="mybinder"></a>
 
 <a id="notebooks"></a>
 # Workshop Notebooks
 
 The links below will take you to the workshop notebooks in static form, in your browser.
 
-* [**00 - Introduction to Jupyter**](./blob/master/workshop/00-jupyter_intro.ipynb) 
-* [**01 - Thinking Statistically**](./blob/master/workshop/01-thinking_statistically.html)
-  * [**01a - Correlations**](./blob/master/workshop/01a-correlations.html)
-  * [**01b - Classifiers**](./blob/master/workshop/01b-clasifiers.html)
-* [**02 - Automation**](./blob/master/workshop/02-automation.html)
-  * [**02a - Python Basics**](./blob/master/workshop/02a-python.html)
-  * [**02b - Automating BLAST**](./blob/master/workshop/02b-blast.html)
-* [**03 - Integrating Data**](./blob/master/workshop/03-integrating_data.html)
+* [**00 - Introduction to Jupyter**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/00-jupyter_intro.ipynb) 
+* [**01 - Thinking Statistically**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/01-thinking_statistically.ipynb)
+  * [**01a - Correlations**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/01a-correlations.ipynb)
+  * [**01b - Classifiers**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/01b-clasifiers.ipynb)
+* [**02 - Automation**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/02-automation.ipynb)
+  * [**02a - Python Basics**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/02a-python.ipynb)
+  * [**02b - Automating BLAST**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/02b-blast.ipynb)
+* [**03 - Integrating Data**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/03-integrating_data.ipynb)
 
-
+<a id="mybinder"></a>
 ## Run Workshop in the Cloud on MyBinder
 
 MyBinder is a cloud-based service that allows you to run Jupyter notebooks on someone else's hardware. This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
