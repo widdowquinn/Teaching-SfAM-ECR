@@ -19,3 +19,6 @@ RUN /home/main/anaconda/envs/python3/bin/pip install -r requirements.txt
 
 # Enable widgets extension
 RUN /home/main/anaconda/envs/python3/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
+
+# Add new kernel
+RUN /home/main/anaconda/envs/python3/bin/python -m ipykernel install --user --name Python3_ibioic_course --display-name "Python 3 (SfAM)"
