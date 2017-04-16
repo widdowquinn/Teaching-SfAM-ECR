@@ -13,3 +13,4 @@ venv-sfam
 
 # Exclude exercise output
 workshop/data/blast/output/
+workshop/data/reproducible/output/
