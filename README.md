@@ -146,10 +146,10 @@ python -m ipykernel install --user --name Python3_SfAM --display-name "Python 3 
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
 
-* Start the notebooks with `jupyter notebook`
+* Start the notebooks with `jupyter notebook index.ipynb` to begin at the top page of the workshop
 
 ```bash
-jupyter notebook
+jupyter notebook index.ipynb
 ```
 
 
