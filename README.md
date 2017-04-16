@@ -4,6 +4,8 @@
 
 1. [Introduction](#introduction)
 2. [Schedule](#schedule)
+3. [Presentations](#presentations)
+4. [Workshop Notebooks](#notebooks)
 3. [Run Workshop in the Cloud on MyBinder](#mybinder)
 4. [Run Workshop on Your Own Machine](#local)
 
