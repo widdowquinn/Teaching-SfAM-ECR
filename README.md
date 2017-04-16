@@ -38,7 +38,7 @@ The links below will take you to the presentations in an interactive form, in yo
 <a id="notebooks"></a>
 # Workshop Notebooks
 
-The links below will take you to the workshop notebooks in static form, in your browser.
+The links below will take you to the workshop notebooks in static form at `GitHub`, in your browser.
 
 * [**00 - Introduction to Jupyter**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/00-jupyter_intro.ipynb) 
 * [**01 - Thinking Statistically**](https://github.com/widdowquinn/Teaching-SfAM-ECS/blob/master/workshop/01-thinking_statistically.ipynb)
@@ -52,7 +52,7 @@ The links below will take you to the workshop notebooks in static form, in your 
 <a id="mybinder"></a>
 ## Run Workshop in the Cloud on MyBinder
 
-MyBinder is a cloud-based service that allows you to run Jupyter notebooks on someone else's hardware. This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
+MyBinder is a service that allows you to run Jupyter notebooks in the cloud (i.e. on someone else's hardware). This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/widdowquinn/teaching-sfam-ecr)
 
@@ -73,11 +73,17 @@ To install and run these materials locally, you will require:
 
 ### Download the materials
 
-The materials are available for download at the link below:
+The course materials (notebooks, presentations, data) are available for download at the link below:
 
-* LINK
+* [https://github.com/widdowquinn/Teaching-SfAM-ECS/archive/v1.0.zip](https://github.com/widdowquinn/Teaching-SfAM-ECS/archive/v1.0.zip)
 
 Download the compressed (`.zip`) file to a suitable location and unpack it. This will place the materials in a subdirectory called `Teaching-SfAM-ECR`. 
+
+Alternatively, if you have [`git`](https://git-scm.com/) installed, you can clone the most current version of the materials to your local machine with the command:
+
+```bash
+git clone https://github.com/widdowquinn/Teaching-SfAM-ECS.git
+```
 
 ### Run the materials
 
