@@ -3,10 +3,10 @@ FROM andrewosh/binder-base
 USER root
 
 # Add dependency
-#RUN apt-get update
+RUN apt-get update
 
-# Install other dependencies via apt-get
-#RUN $HOME/notebooks/install-apps.sh
+# Install BLAST+
+RUN apt-get install -y ncbi-blast+
 
 USER main
 
