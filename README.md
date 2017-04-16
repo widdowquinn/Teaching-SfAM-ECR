@@ -56,7 +56,7 @@ The links below will take you to the workshop notebooks in static form at `GitHu
 
 MyBinder is a service that allows you to run Jupyter notebooks in the cloud (i.e. on someone else's hardware). This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/widdowquinn/teaching-sfam-ecr)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/widdowquinn/teaching-sfam-ecs)
 
 This approach has the advantage that it requires no further configuration: all materials and tools are pre-installed, and ready to go.
 
