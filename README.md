@@ -18,7 +18,7 @@ Welcome to the "Not All Bioinformatics is NGS" part of the SfAM ECS symposium. T
 * [[poster]](posters/SfAM_Bioinformatics_A4.pdf)
 
 | Time          | Activity                                         |
-| ------------- | ------------------------------------------------ |
+| :-----------: | :----------------------------------------------- |
 | 10:00 - 11:00 | Registration                                     |
 | 10:30 - 11:00 | Posters & Refreshments                           |
 | 11:00 - 12:00 | Student oral presentations (4x 15 min slots)     |
@@ -88,5 +88,69 @@ git clone https://github.com/widdowquinn/Teaching-SfAM-ECS.git
 ```
 
 ### Run the materials
+
+* Open a terminal on your machine
+* Navigate to a convenient location and create a new directory for the course materials (e.g. `sfam-workshop`)
+
+```bash
+mkdir sfam-workshop
+cd sfam-workshop
+```
+
+* Download or clone the course materials to this location (see above) and extract them, if necessary
+* Change directory to the course materials
+
+```bash
+cd Teaching-SfAM-ECS        # if you cloned the repository
+cd Teaching-SfAM-ECS-1.0    # if you extracted the .zip/.tar.gz file
+```
+
+* Add a new `Anaconda` channel for `bioconda`
+
+```bash
+conda config --add channels bioconda
+```
+
+* Install `Jupyter` in the `conda` environment
+
+```bash
+conda install jupyter
+```
+
+* Create a new `conda` environment called `sfam`, installing the necessary `Python` libraries (accept the changes requested).
+
+```bash
+conda create --name sfam python=3 jupyter numpy pandas seaborn bioservices biopython
+```
+
+* Activate the `conda` environment:
+
+On Windows:
+
+```bash
+activate sfam
+```
+
+On OSX/Linux
+
+```bash
+source activate sfam
+```
+
+You should see that your command-line prompt has changed, and now starts with `(sfam)`. This indicates that you are now working within a 'protected' `Python` environment, specific for this workshop.
+
+* Add a new kernel to `Jupyter`, and enable iPython widgets
+
+```bash
+python -m ipykernel install --user --name Python3_SfAM --display-name "Python 3 (SfAM)"
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+```
+
+* Start the notebooks with `jupyter notebook`
+
+```bash
+jupyter notebook
+```
+
 
 
