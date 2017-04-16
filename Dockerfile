@@ -25,4 +25,4 @@ RUN conda install -y ipywidgets widgetsnbextension
 RUN /home/main/anaconda/envs/python3/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
 
 # Add new kernel
-RUN /home/main/anaconda/envs/python3/bin/python -m ipykernel install --user --name Python3_ibioic_course --display-name "Python 3 (SfAM)"
+RUN /home/main/anaconda/envs/python3/bin/python -m ipykernel install --user --name Python3_SfAM --display-name "Python 3 (SfAM)"
