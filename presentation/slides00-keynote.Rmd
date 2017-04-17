@@ -15,19 +15,33 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# The most important thing I ever did
+## My life in sequences
+
+<img src="images/comics/didnt_work_autobiography.jpg" height="450px" />
+<img src="images/comics/what_i_planned.png" height="450px" />
+
+## A confession
+
+<img src="images/comics/imposter_syndrome.jpg" height="450px" />
+
+# The single most important influence on my academic career
 
 ## Informal education
 
 <img src="images/1200px-Sinclair-ZX81.png" height="450px" />
 
-# Undergraduate
+## Informal education
+
+<img src="images/comics/einstein_education.jpg" height="450px" />
+
+
+# Formal Education
 
 ## BSc Forensic & Analytical Chemistry (1992-1996)
 
-* Mostly chemistry (1yr industry)
-* Final year forensics
+* Mostly chemistry (1yr industry), final year forensics
 * Final year honours project: proteins and computers
+* Sinclair Basic and Frontier: Elite II
 
 <img src="images/bpti_sequence.png" height="300px" />
 <img src="images/upgma_tree.png" height="300px" />
@@ -39,38 +53,64 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <img src="images/peach_tea.jpg" height="450px" />
 
-# Postgraduate
+## Making the switch
 
-## PhD Bioinformatics (1996-1999)
+<img src="images/comics/experimental_computational.jpg" height="450px" />
+
+## PhD (1996-1999)
 
 * Evolution of snake venom toxins
-* Neural network analogy of protein evolution
-* Drug site discovery algorithm (still in use)
+* Neural network model of evolution
+* Drug active site discovery algorithm (still in use)
 
-<img src="images/bpti_trace.png" height="200px" />
-<img src="images/hopfield.png" height="200px" />
-<img src="images/sid_scores.png" height="200px" />
+<img src="images/bpti_trace.png" height="250px" />
+<img src="images/sid_scores.png" height="250px" />
+
+[doi:10.1006/jmbi.1998.2437](https://dx.doi.org/10.1006/jmbi.1998.2437); 
+[doi:10.1006/jtbi.1999.1043](https://dx.doi.org/10.1006/jtbi.1999.1043); 
+[PMID:11579223](https://www.ncbi.nlm.nih.gov/pubmed/11579223); 
+[PMID:12676977](https://www.ncbi.nlm.nih.gov/pubmed/12676977)
+
+# First steps in academia
+
+## First steps in academia
+
+<img src="images/comics/phd031014s.gif" height="450px" />
 
 ## Postdocs (1999-2003)
 
-* Systems Biology
-* Modelling of yeast metabolism
-* Directed evolution
+* Systems biology: modelling yeast metabolism
+* Directed evolution: improved lanthanide binding
 
 <img src="images/glycolysis_equations.png" height="300px" />
 <img src="images/glycolysis_domains.png" height="300px" />
 
+[doi:10.1046/j.1432-1033.2002.03055.x](https://dx.doi.org/10.1046/j.1432-1033.2002.03055.x); 
+[doi:10.1016/j.jtbi.2004.12.005](https://dx.doi.org/10.1016/j.jtbi.2004.12.005)
+
+## Multidisciplinarity
+
+<img src="images/comics/multidisciplinary.jpg" height="450px" />
+
 # The SCRI/JHI Years
+
+## The SCRI/JHI Years
+
+<img src="images/comics/bioinformatics_keyboard.jpg" height="350px" />
+<br></br>
+<img src="images/SCRIlogoHighRes.png" height="100px" />
+<img src="images/jhi_logo.png" height="100px" />
 
 ## Bioinformatician (2003-present)
 
 * Research Institute
+* Government funding, policy remits
+* Ineligible for many usual funding sources (e.g. RCUK)
 * Bioinformatician/Computational Biologist
 * Not a clear postdoc/PI distinction
-* Ineligible for many usual funding sources (e.g. RCUK)
 * BA Mathematics (Open University)
 
-# Bacterial Genomes
+# Bacterial Genomics I
 
 ## 2003: Erwinia
 
@@ -84,23 +124,118 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Global pathogens
 
 * Blackleg, stem-rot
-* Quarantine pathogen
+* Quarantine pathogens
 
 <img src="images/pathogen_ortho.pdf" height="350px" />
 <img src="images/rot_pics1.png" height="350px" />
 
 ## First enterobacterial plant pathogen genome
-
+ 
 <img src="images/pba_pnas.png" height="300px" />
 
-* Bell *et al.* (2004) *Proc. Natl. Acad. Sci. USA* [doi:10.1073/pnas.0402424101](https://dx.doi.org/doi:10.1073/pnas.0402424101)
+ [doi:10.1073/pnas.0402424101](https://dx.doi.org/doi:10.1073/pnas.0402424101)
 
-## First enterobacterial plant pathogen genome
+## Acceptable in the 00s…
 
-* 32-author bacterial genome paper!
+* 32-author single bacterial genome paper!
 * £250,000 collaboration between SCRI, University of Cambridge, Wellcome Trust Sanger Institute
 * All repeats and gaps bridged and sequenced directly
 * A single complete high-quality 5Mbp circular chromosome
 * 3 person-years' manual annotation
 
-s
+## TIL: Annotation
+
+* The utility of genomes depends on annotation
+* Annotation is **curation**, not cataloguing
+* Automated annotation from curated data (e.g. with `Prokka`) is the only game in town
+* **But** you can't propagate what doesn't exist
+* Lots of genomes, few incentives to curate well: "many parents, but no-one wants to look after the children"
+* ELIXIR, Ensembl, centralised resources only a partial solution
+
+## TIL: Comparisons
+
+* The real power of genomics is **comparative genomics**
+* $\textrm{genome} \implies \textrm{heritable}$
+* identification of functional elements, evolutionary processes and constraints
+* **But** epigenetics, tissue differentiation, mesoscale, phenotype plasticity, …
+
+<img src="images/genotype_protein_phenotype.png" height="200px" />
+
+## Comparisons
+
+* So we compared *Pba* to the 130 available bacterial genomes…
+
+<img src="images/pba_circular_rbh.png" height="350px" />
+<img src="images/pba_linear_rbh.png" height="350px" />
+
+[doi:10.1146/annurev.phyto.44.070505.143444](https://dx.doi.org/10.1146/annurev.phyto.44.070505.143444)
+
+## Functional differences
+
+* *Pba*-only: pathogenicity determinants; phage/IS elements
+* *Pba* & environmental: pathogenicity determinants; surface proteins; regulatory proteins
+
+<img src="images/pba_function_hist.png" height="400px" />
+
+# Visualisation
+
+## Visualisation
+
+<img src="images/comics/how_scientists_see_data.jpg" height="350px" />
+
+## GenomeDiagram
+
+<img src="images/paper_gd.png" height="175px" />
+<br></br>
+<img src="images/gd1.png" height="250px" />
+<img src="images/gd2.png" height="250px" />
+
+[doi:10.1093/bioinformatics/btk021](https://dx.doi.org/10.1093/bioinformatics/btk021)
+
+## `Biopython`/`KGML`
+
+<img src="images/biopython.png" height="75px" />
+<br></br>
+<img src="images/kgml2.png" height="325px" />
+<img src="images/kgml3.png" height="325px" />
+
+[http://biopython.org](http://biopython.org)
+
+## Art/Science
+
+<img src="images/art_practice.jpg" height="300px" />
+<img src="images/sciart2.png" height="300px" />
+<img src="images/shemilt-fig3.jpg" height="300px" />
+
+* Elaine Shemilt, exhibited Singapore, Dundee, London (2006)
+
+[A Blueprint for Bacterial Life and Art](https://www.dundee.ac.uk/djcad/research/researchprojectscentresandgroups/blueprint/)
+
+# Bacterial Genomics II
+
+## Bacterial genomics II
+
+<img src="images/comics/genomics_flying_cars.jpg" height="450px" />
+
+## SPI-7 & *cfa*
+
+* 11 horizontally-acquired islands: one similar to a *P. syringae* phytotoxin synthesis island
+
+<img src="images/spi7.png" height="400px" />
+
+## SPI-7 & *cfa*
+
+* Island present in *Pba*, some *Pcc*, no *Dickeya*
+* *cfl* and *cfa7* knockouts showed reduced virulence (17dpi)
+
+<img src="images/spi7_img.png" height="400px" />
+
+
+# Conclusions
+
+## As much as I know…
+
+* Do work you enjoy
+* Do it well
+* Work with good people
+* Read widely
