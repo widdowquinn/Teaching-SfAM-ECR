@@ -14,3 +14,9 @@ venv-sfam
 # Exclude exercise output
 workshop/data/blast/output/
 workshop/data/reproducible/output/
+
+# Exclude OSX-specific filesystem files
+.DS_Store
+
+# Exclude RStudio helper files
+.Rhistory

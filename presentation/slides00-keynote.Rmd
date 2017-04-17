@@ -1,0 +1,106 @@
+---
+title: "My Life In Sequences"
+author: "Leighton Pritchard"
+output: 
+  revealjs::revealjs_presentation:
+    theme: white
+    center: true
+    highlight: pygments
+    transition: fade
+    css: reveal.css
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# The most important thing I ever did
+
+## Informal education
+
+<img src="images/1200px-Sinclair-ZX81.png" height="450px" />
+
+# Undergraduate
+
+## BSc Forensic & Analytical Chemistry (1992-1996)
+
+* Mostly chemistry (1yr industry)
+* Final year forensics
+* Final year honours project: proteins and computers
+
+<img src="images/bpti_sequence.png" height="300px" />
+<img src="images/upgma_tree.png" height="300px" />
+<img src="images/interchem_structure.png" height="300px" />
+
+## Body Fluid Analysis (1996)
+
+* Glasgow Royal Infirmary
+
+<img src="images/peach_tea.jpg" height="450px" />
+
+# Postgraduate
+
+## PhD Bioinformatics (1996-1999)
+
+* Evolution of snake venom toxins
+* Neural network analogy of protein evolution
+* Drug site discovery algorithm (still in use)
+
+<img src="images/bpti_trace.png" height="200px" />
+<img src="images/hopfield.png" height="200px" />
+<img src="images/sid_scores.png" height="200px" />
+
+## Postdocs (1999-2003)
+
+* Systems Biology
+* Modelling of yeast metabolism
+* Directed evolution
+
+<img src="images/glycolysis_equations.png" height="300px" />
+<img src="images/glycolysis_domains.png" height="300px" />
+
+# The SCRI/JHI Years
+
+## Bioinformatician (2003-present)
+
+* Research Institute
+* Bioinformatician/Computational Biologist
+* Not a clear postdoc/PI distinction
+* Ineligible for many usual funding sources (e.g. RCUK)
+* BA Mathematics (Open University)
+
+# Bacterial Genomes
+
+## 2003: Erwinia
+
+* Arrived at SCRI part-way through sequencing *Erwinia carotovora* subsp. *atrosepticum*
+
+<img src="images/cumulative_genomes_1.jpg" height="300px" />
+<img src="images/cumulative_genomes_2.jpg" height="300px" />
+
+([http://sulab.org/2013/06/sequenced-genomes‐per‐year/](h5p://sulab.org/2013/06/sequenced‐genomes‐per‐year/))
+
+## Global pathogens
+
+* Blackleg, stem-rot
+* Quarantine pathogen
+
+<img src="images/pathogen_ortho.pdf" height="350px" />
+<img src="images/rot_pics1.png" height="350px" />
+
+## First enterobacterial plant pathogen genome
+
+<img src="images/pba_pnas.png" height="300px" />
+
+* Bell *et al.* (2004) *Proc. Natl. Acad. Sci. USA* [doi:10.1073/pnas.0402424101](https://dx.doi.org/doi:10.1073/pnas.0402424101)
+
+## First enterobacterial plant pathogen genome
+
+* 32-author bacterial genome paper!
+* £250,000 collaboration between SCRI, University of Cambridge, Wellcome Trust Sanger Institute
+* All repeats and gaps bridged and sequenced directly
+* A single complete high-quality 5Mbp circular chromosome
+* 3 person-years' manual annotation
+
+s
