@@ -60,7 +60,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## PhD (1996-1999)
 
 * Evolution of snake venom toxins
-* Neural network model of evolution
+* Neural network model of protein evolution
 * Drug active site discovery algorithm (still in use)
 
 <img src="images/bpti_trace.png" height="250px" />
@@ -110,6 +110,15 @@ knitr::opts_chunk$set(echo = FALSE)
 * Not a clear postdoc/PI distinction
 * BA Mathematics (Open University)
 
+## Bioinformatician (2003-present)
+
+* Bacterial genomics
+* Plant-microbe interactions
+* Oomycete genomics
+* Microbial systems biology
+* Microbial synthetic biology
+* (occasionally plants, fungi, nematodes and viruses)
+
 # Bacterial Genomics I
 
 ## 2003: Erwinia
@@ -129,6 +138,8 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/pathogen_ortho.pdf" height="350px" />
 <img src="images/rot_pics1.png" height="350px" />
 
+Toth *et al.* (2011) [doi:10.1111/j.1365-3059.2011.02427.x](https://dx.doi.org/10.1111/j.1365-3059.2011.02427.x)
+
 ## First enterobacterial plant pathogen genome
  
 <img src="images/pba_pnas.png" height="300px" />
@@ -147,8 +158,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * The utility of genomes depends on annotation
 * Annotation is **curation**, not cataloguing
-* Automated annotation from curated data (e.g. with `Prokka`) is the only game in town
-* **But** you can't propagate what doesn't exist
+* (Automated annotation from curated data (e.g. with `Prokka`) now the only game in town)
+* ***But** you can't propagate what doesn't exist*
 * Lots of genomes, few incentives to curate well: "many parents, but no-one wants to look after the children"
 * ELIXIR, Ensembl, centralised resources only a partial solution
 
@@ -228,10 +239,231 @@ knitr::opts_chunk$set(echo = FALSE)
 * Island present in *Pba*, some *Pcc*, no *Dickeya*
 * *cfl* and *cfa7* knockouts showed reduced virulence (17dpi)
 
-<img src="images/spi7_img.png" height="400px" />
+<img src="images/spi7_img.png" height="350px" />
 
+Slawiak & Lojkowska (2009) [doi:10.1007/s10658-008-9418-7](10.1007/s10658-008-9418-7)
+
+## 2013: Dickeya
+
+* Genomics commodified (several services used)
+* 25 genomes, no fanfare, minor publications
+
+<img src="images/dickeya_ga1.png" height="150px" />
+<img src="images/dickeya_ga2.png" height="150px" />
+
+* 6 species, draft genomes, automated annotation
+
+[doi:10.1128/genomeA.00978-13](https://dx.doi.org/10.1128/genomeA.00978-13)
+[doi:10.1128/genomeA.00087-12](https://dx.doi.org/10.1128/genomeA.00087-12)
+
+## Quarantine
+
+* *Dickeya*: global pathogens
+
+<img src="images/pathogen_maps.pdf" height="400px" />
+
+## Diagnostic qPCR primers
+
+<img src="images/design_stage_3.pdf" height="400px" />
+
+[doi:/10.1371/journal.pone.0034498](https://dx.doi.org/10.1371/journal.pone.0034498)
+<br></br>
+[https://github.com/widdowquinn/find_differential_primers](https://github.com/widdowquinn/find_differential_primers)
+
+## Tangled Taxonomy
+
+* 3/4 *Dickeya* spp. misclassified at NCBI (MiSI: 18%)
+
+<img src="images/dickeya_misclassified.png" height="400px" />
+
+[doi:10.1111/j.1365-3059.2012.02678.x](https://dx.doi.org/10.1111/j.1365-3059.2012.02678.x)
+
+## Nomenclature
+
+* Old nomenclature/species: polyphasic/phenotypic
+* Binomial nomenclature not designed for large amounts of genomic data, metadata curation (HGT of function…)
+* *Dickeya* had much renaming
+
+<img src="images/sankey_taxonomy.png" height="300px" />
+
+## Legislation
+
+* A political issue: legislation/policy relies on binomial nomenclature
+
+<img src="images/legislation.png" height="400px" />
+
+## DDH
+
+* DNA-DNA hybridisation the 'gold standard' for classification
+
+<img src="images/ddh.png" height="400px" />
+
+## ANI
+
+* Average nucleotide identity (ANI) ≈ *in silico* DDH
+
+<img src="images/ddh_anim.png" height="400px" />
+
+## PYANI
+
+* `Python` module and scripts
+
+<img src="images/pyani_github_web.png" height="400px" />
+<img src="images/SRE_ANIm.pdf" height="400px" />
+
+## Dickeya
+
+* Nine species-level groups (two novel)
+
+<img src="images/Figure_2_figure_anim_pid_dickeya.pdf" height="500px" />
+
+## Genomic classification
+
+<img src="images/baltrus_tree.png" height="450px" />
+
+Baltrus (2016) [doi:10.1016/j.tim.2016.02.004](https://dx.doi.org/j.tim.2016.02.004)
+
+## ANIm Graphs
+
+* Numeric matrices (e.g. ANIm scores) define graphs/networks
+
+<img src="images/SRE_ANIm.pdf" height="400px" />
+<img src="images/SRE_ANIm_graph.pdf" height="400px" />
+
+## Graph decomposition
+
+* Break down graphs (min. coverage, %identity)
+* Identify unique *cliques*
+
+<img src="images/thresholds.pdf" height="300px" />
+<img src="images/threshold_zeros_kde.pdf" height="300px" />
+
+* 'genus', 'species', 'clonal' groupings
+
+## Reclassify genus
+
+* 50%+ of genome aligns, ≈85% identity
+
+<img src="images/sankey_genus.png" height="500px" />
+
+## Overall classification
+
+* Additional species reclassifications
+
+<img src="images/sankey_gcs.png" height="500px" />
+
+# Protecting woodlands
+
+## Phyto-threats
+
+<img src="images/project_flyer.pdf" height="350px" />
+
+Forest Research, Centres for Ecology and Hydrology, University of Edinburgh, University of Worcester
+
+## Phytophthora spp.
+
+* Sudden oak death; juniper (*P. austrocedri*), etc.
+* Evolutionary genomics
+* Metabarcoding of *Phytophthora* communities in nurseries and surroundings
+* Existing identification by ITS1
+* Genomics: tens of diverse ITS1 sequences per genome
+
+# Systems and Synthetic Biology
+
+## SysBio and SynBio
+
+<img src="images/comics/infinite_unfathomable_sadness.png" height="400px" />
+<img src="images/genotype_protein_phenotype.png" height="250px" />
+
+## Dickeya Metabolism
+
+* Presence/absence of KEGG reactions
+* Clues to host range and community function
+
+<img src="images/dickeya_pathways.png" height="450px" />
+
+## Flux-balance analysis
+
+* Whole-organism flux, prediction of KO effects
+* Substrate usage, pathway optimisation (SynBio)
+
+<img src="images/fba_solution_space.png" height="450px" />
+
+## Pathways and host range
+
+* Pathways, function, correspond to *Dickeya* spp.
+
+<img src="images/systems_dickeya_pathway_tree.png" height="325px" />
+<img src="images/systems_dickeya_growth1.png" height="325px" />
+<img src="images/systems_dickeya_growth2.png" height="325px" />
+
+* Differences in substrate usage
+
+## Food or Fuel?
+
+* 1G: food crops; 2G: cellulosic crops; Ag waste?
+
+<img src="images/275_cartoon_for_food_or_fuel_large.png" height="400px" />
+
+* Maize stover, straw, sugarcane bagasse etc. 
+
+## Dickeya for bioprocessing
+
+* Plant Cell Wall Degrading Enzymes (PCWDEs)
+* Enzymes engineered for bioethanol production, expressed in *E. coli*
+* SynBio is a platform technology
+* Engineered PCWDE libraries for SynBio?
+
+<img src="images/logo_ibioic.png" height="75px" />
+<img src="images/logo_uosta.png" height="75px" />
+
+## Natural diversity
+
+* Up to 75 CAZyme families in SRE
+* Mine genomes for more variants
+
+<img src="images/functional_space.pdf" height="400px" />
+
+## Generating diversity
+
+* Gene-shuffling/directed evolution
+* Exploit/recombine natural diversity
+* Obtain novel structures
+
+<img src="images/generate_diversity.pdf" height="400px" />
+
+## Protein sectors
+
+* Correlated mutations (return of the PhD!)
+* Decomposition of structure into sectors
+
+<img src="images/correlated_conservation.png" height="350px" />
+<img src="images/protein_sectors.png" height="350px" />
+
+Halabi *et al.* (2009) [doi:10.1016/j.cell.2009.07.038](https://dx.doi.org/10.1016/j.cell.2009.07.038)
+
+## Positional epistasis
+
+* Context-dependence of function and mutation: epistasis
+* Saturating substitution of specificity sites
+
+<img src="images/epistasis.png" height="350px" />
+
+* McLaughlin et al. (2012) [doi:10.1038/nature11500](https://dx.doi.org/10.1038/nature11500)
 
 # Conclusions
+
+## Conclusions
+
+<img src="images/comics/neil_degrasse_tyson_quote.jpeg" height="500px" />
+
+## Microbial Agrogenomics
+
+* Diagnostics & epidemic tracking by sequencing (MinION)
+* Phytobiome: the plant, and the associated community
+* SysBio: plant-microbe interactions
+* Integration of models and datasets still challenging
+* SynBio: engineering new response modes into crops (resistance, N-fixation)
 
 ## As much as I know…
 
@@ -239,3 +471,4 @@ knitr::opts_chunk$set(echo = FALSE)
 * Do it well
 * Work with good people
 * Read widely
+
