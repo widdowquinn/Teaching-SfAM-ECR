@@ -16,6 +16,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Motivation
 
+## Motivation
+
+<img src="images/comics/excel_paperclip.jpg" height="450px" />
+
 ## Irreproducibility hurts!
 
 > …all I can hope is that future historians note that one of the core empirical points providing the intellectual foundation for the global move to austerity in the early 2010s was based on someone accidentally not updating a row formula in Excel. (Mike Konczal)
@@ -54,6 +58,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Reproducible research
 
+## Reproducible research
+
+<img src="images/comics/phd052810s.png" height="450px" />
+
+*(this isn't it*)
+
 ## What is it?
 
 * Provide *documented* code used to produce:
@@ -77,13 +87,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## How to do it? (I)
 
-* Automate - write your analyses as scripts/code in a high-level language
+* Automate analyses as scripts/code in a high-level language
 * Use literate programming (notebooks)
 * Use version control
 * Share your code (get a code buddy!)
 * Get some training
 
-<a href="https://software-carpentry.org/"><img src="images/swc.png" height="125px" /></a><a href="http://www.datacarpentry.org/"><img src="images/dc.jpg" height="125px" /></a>
+<a href="https://software-carpentry.org/"><img src="images/swc.png" height="125px" /></a><a href="http://www.datacarpentry.org/"><img src="images/dc.png" height="125px" /></a>
 
 ## 11th Grade
 
@@ -104,12 +114,20 @@ knitr::opts_chunk$set(echo = FALSE)
     * Zenodo [https://zenodo.org/](https://zenodo.org/)
     * Figshare [https://figshare.com/](https://figshare.com/)
 
+## The first step…
+
+<img src="images/comics/sucking_is_the_first_step.jpg" height="450px" />
+
 ## Benefits
 
 * It's the right thing to do
 * Others will use, debug and enhance your work
 * Others will reproduce and cite your work
 * More opportunities to collaborate
+
+## Don't be irreplaceable
+
+<img src="images/comics/phd032013s.gif" height="450px" />
 
 # Resources
 
@@ -120,3 +138,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * [Data Carpentry](http://www.datacarpentry.org/)
 * ["Why is reproducible research so important?"](http://simplystatistics.org/2014/06/06/the-real-reason-reproducible-research-is-important/)
 * [Karl Broman's course on reproducible research](http://kbroman.org/Tools4RR/pages/schedule.html)
+
+## This workshop
+
+[https://github.com/widdowquinn/Teaching-SfAM-ECS](https://github.com/widdowquinn/Teaching-SfAM-ECS)
