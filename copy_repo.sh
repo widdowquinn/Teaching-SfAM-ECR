@@ -19,8 +19,8 @@
 for udetails in `cat users.txt`
 do
     user=`echo $udetails | cut -f 1 -d ,`
-    cpcmd="cp -R Teaching-SfAM-ECS/index.ipynb /home/${user}"
-    cpcmd="cp -R Teaching-SfAM-ECS/workshop /home/${user}"
+    cpcmd="cp index.ipynb /home/${user}"
+    cpcmd="cp -R workshop /home/${user}"
     echo ${cpcmd}
     ${cpcmd}
     chowncmd="chown -R ${user} /home/${user}"
