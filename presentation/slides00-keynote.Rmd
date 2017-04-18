@@ -59,7 +59,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## PhD (1996-1999)
 
-* Evolution of snake venom toxins
+* Evolution of snake venom toxins (correlated mutations)
 * Neural network model of protein evolution
 * Drug active site discovery algorithm (still in use)
 
@@ -158,10 +158,10 @@ Toth *et al.* (2011) [doi:10.1111/j.1365-3059.2011.02427.x](https://dx.doi.org/1
 
 * The utility of genomes depends on annotation
 * Annotation is **curation**, not cataloguing
-* (Automated annotation from curated data (e.g. with `Prokka`) now the only game in town)
+* Automated annotation from curated data (e.g. with `Prokka`) now the only game in town
 * ***But** you can't propagate what doesn't exist*
 * Lots of genomes, few incentives to curate well: "many parents, but no-one wants to look after the children"
-* ELIXIR, Ensembl, centralised resources only a partial solution
+* Centralised data resources (e.g. PhytoPath) only a partial solution (funding?)
 
 ## TIL: Comparisons
 
@@ -174,7 +174,7 @@ Toth *et al.* (2011) [doi:10.1111/j.1365-3059.2011.02427.x](https://dx.doi.org/1
 
 ## Comparisons
 
-* So we compared *Pba* to the 130 available bacterial genomes…
+* So we compared *Pba* to the 130 prokaryotic genomes available at the time…
 
 <img src="images/pba_circular_rbh.png" height="350px" />
 <img src="images/pba_linear_rbh.png" height="350px" />
@@ -218,7 +218,7 @@ Toth *et al.* (2011) [doi:10.1111/j.1365-3059.2011.02427.x](https://dx.doi.org/1
 <img src="images/sciart2.png" height="300px" />
 <img src="images/shemilt-fig3.jpg" height="300px" />
 
-* Elaine Shemilt, exhibited Singapore, Dundee, London (2006)
+* Elaine Shemilt, exhibited Singapore, Dundee, London
 
 [A Blueprint for Bacterial Life and Art](https://www.dundee.ac.uk/djcad/research/researchprojectscentresandgroups/blueprint/)
 
@@ -230,14 +230,14 @@ Toth *et al.* (2011) [doi:10.1111/j.1365-3059.2011.02427.x](https://dx.doi.org/1
 
 ## SPI-7 & *cfa*
 
-* 11 horizontally-acquired islands: one similar to a *P. syringae* phytotoxin synthesis island
+* 11 horizontally-acquired islands: one similar to a *P. syringae* phytotoxin synthesis island (payload swapped)
 
 <img src="images/spi7.png" height="400px" />
 
 ## SPI-7 & *cfa*
 
 * Island present in *Pba*, some *Pcc*, no *Dickeya*
-* *cfl* and *cfa7* knockouts showed reduced virulence (17dpi)
+* *cfl* and *cfa7* Tn mutants showed reduced virulence (17dpi)
 
 <img src="images/spi7_img.png" height="350px" />
 
@@ -264,7 +264,9 @@ Slawiak & Lojkowska (2009) [doi:10.1007/s10658-008-9418-7](10.1007/s10658-008-94
 
 ## Diagnostic qPCR primers
 
-<img src="images/design_stage_3.pdf" height="400px" />
+* Genomes enable bulk design
+
+<img src="images/design_stage_3.pdf" height="350px" />
 
 [doi:/10.1371/journal.pone.0034498](https://dx.doi.org/10.1371/journal.pone.0034498)
 <br></br>
@@ -280,9 +282,9 @@ Slawiak & Lojkowska (2009) [doi:10.1007/s10658-008-9418-7](10.1007/s10658-008-94
 
 ## Nomenclature
 
-* Old nomenclature/species: polyphasic/phenotypic
+* Old nomenclature/species: polyphasic, phenotypic
 * Binomial nomenclature not designed for large amounts of genomic data, metadata curation (HGT of function…)
-* *Dickeya* had much renaming
+* Historical *Dickeya*  renaming: collections, databases not updated
 
 <img src="images/sankey_taxonomy.png" height="300px" />
 
@@ -340,6 +342,8 @@ Baltrus (2016) [doi:10.1016/j.tim.2016.02.004](https://dx.doi.org/j.tim.2016.02.
 
 * 'genus', 'species', 'clonal' groupings
 
+[doi:10.6084/m9.figshare.4810867.v4](https://doi.org/10.6084/m9.figshare.4810867.v4)
+
 ## Reclassify genus
 
 * 50%+ of genome aligns, ≈85% identity
@@ -348,7 +352,7 @@ Baltrus (2016) [doi:10.1016/j.tim.2016.02.004](https://dx.doi.org/j.tim.2016.02.
 
 ## Overall classification
 
-* Additional species reclassifications
+* Additional species reclassifications for SRE
 
 <img src="images/sankey_gcs.png" height="500px" />
 
@@ -362,11 +366,12 @@ Forest Research, Centres for Ecology and Hydrology, University of Edinburgh, Uni
 
 ## Phytophthora spp.
 
+* *Phytopthora* spp. are devastating pathogens
+* Crops routinely treated - woodlands aren't, but trees also susceptible to imported disease
 * Sudden oak death; juniper (*P. austrocedri*), etc.
-* Evolutionary genomics
+* Phyto-threats: evolutionary genomics to inform nursery practice
 * Metabarcoding of *Phytophthora* communities in nurseries and surroundings
-* Existing identification by ITS1
-* Genomics: tens of diverse ITS1 sequences per genome
+* Existing identification by ITS1, but tens of diverse ITS1 sequences per genome…
 
 # Systems and Synthetic Biology
 
@@ -451,6 +456,10 @@ Halabi *et al.* (2009) [doi:10.1016/j.cell.2009.07.038](https://dx.doi.org/10.10
 
 * McLaughlin et al. (2012) [doi:10.1038/nature11500](https://dx.doi.org/10.1038/nature11500)
 
+## Long way to go
+
+<img src="images/comics/long_way_to_go.jpg" height="500px" />
+
 # Conclusions
 
 ## Conclusions
@@ -460,9 +469,8 @@ Halabi *et al.* (2009) [doi:10.1016/j.cell.2009.07.038](https://dx.doi.org/10.10
 ## Microbial Agrogenomics
 
 * Diagnostics & epidemic tracking by sequencing (MinION)
-* Phytobiome: the plant, and the associated community
-* SysBio: plant-microbe interactions
-* Integration of models and datasets still challenging
+* SysBio: plant-microbe interactions, phytobiome (plant and associated community)
+* Integration of models and datasets is still challenging
 * SynBio: engineering new response modes into crops (resistance, N-fixation)
 
 ## As much as I know…
