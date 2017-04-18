@@ -23,7 +23,7 @@ do
     cpcmd="cp -R Teaching-SfAM-ECS/workshop /home/${user}"
     echo ${cpcmd}
     ${cpcmd}
-    chowncmd="chown -R ${user} /home/${user}/*"
+    chowncmd="chown -R ${user} /home/${user}"
     echo ${chowncmd}
     ${chowncmd}
 done
