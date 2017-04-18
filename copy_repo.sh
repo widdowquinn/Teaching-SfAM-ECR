@@ -25,6 +25,9 @@ do
     cpcmd="cp -R workshop /home/${user}"
     echo ${cpcmd}
     ${cpcmd}
+    cpcmd="cp -R images /home/${user}"
+    echo ${cpcmd}
+    ${cpcmd}
     chowncmd="chown -R ${user} /home/${user}"
     echo ${chowncmd}
     ${chowncmd}
