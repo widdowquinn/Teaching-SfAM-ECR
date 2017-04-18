@@ -34,6 +34,7 @@ Welcome to the "Not All Bioinformatics is NGS" part of the SfAM ECS symposium. T
 
 The links below will take you to the presentations in an interactive form, in your browser.
 
+* [My Life in Sequences](https://widdowquinn.github.io/Teaching-SfAM-ECS/presentation/slides00-keynote.html)
 * [Reproducible Research](https://widdowquinn.github.io/Teaching-SfAM-ECS/presentation/slides01-reproducible_research.html)
 
 
