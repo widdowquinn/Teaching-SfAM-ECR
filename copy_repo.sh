@@ -20,6 +20,7 @@ for udetails in `cat users.txt`
 do
     user=`echo $udetails | cut -f 1 -d ,`
     cpcmd="cp index.ipynb /home/${user}"
+    echo ${cpcmd}
     cpcmd="cp -R workshop /home/${user}"
     echo ${cpcmd}
     ${cpcmd}
