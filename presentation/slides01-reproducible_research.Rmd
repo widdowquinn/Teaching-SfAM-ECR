@@ -142,3 +142,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## This workshop
 
 [https://github.com/widdowquinn/Teaching-SfAM-ECS](https://github.com/widdowquinn/Teaching-SfAM-ECS)
+
+## A question
+
+<img src="images/246.jpg" height="450px" />
