@@ -135,7 +135,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Blackleg, stem-rot
 * Quarantine pathogens
 
-<img src="images/pathogen_ortho.pdf" height="350px" />
+<img src="images/pathogen_ortho.png" height="350px" />
 <img src="images/rot_pics1.png" height="350px" />
 
 Toth *et al.* (2011) [doi:10.1111/j.1365-3059.2011.02427.x](https://dx.doi.org/10.1111/j.1365-3059.2011.02427.x)
@@ -260,13 +260,13 @@ Slawiak & Lojkowska (2009) [doi:10.1007/s10658-008-9418-7](10.1007/s10658-008-94
 
 * *Dickeya*: global pathogens
 
-<img src="images/pathogen_maps.pdf" height="400px" />
+<img src="images/pathogen_maps.png" height="400px" />
 
 ## Diagnostic qPCR primers
 
 * Genomes enable bulk design
 
-<img src="images/design_stage_3.pdf" height="350px" />
+<img src="images/design_stage_3.png" height="350px" />
 
 [doi:/10.1371/journal.pone.0034498](https://dx.doi.org/10.1371/journal.pone.0034498)
 <br></br>
@@ -311,13 +311,13 @@ Slawiak & Lojkowska (2009) [doi:10.1007/s10658-008-9418-7](10.1007/s10658-008-94
 * `Python` module and scripts
 
 <img src="images/pyani_github_web.png" height="400px" />
-<img src="images/SRE_ANIm.pdf" height="400px" />
+<img src="images/SRE_ANIm.png" height="400px" />
 
 ## Dickeya
 
 * Nine species-level groups (two novel)
 
-<img src="images/Figure_2_figure_anim_pid_dickeya.pdf" height="500px" />
+<img src="images/Figure_2_figure_anim_pid_dickeya.png" height="500px" />
 
 ## Genomic classification
 
@@ -329,16 +329,16 @@ Baltrus (2016) [doi:10.1016/j.tim.2016.02.004](https://dx.doi.org/j.tim.2016.02.
 
 * Numeric matrices (e.g. ANIm scores) define graphs/networks
 
-<img src="images/SRE_ANIm.pdf" height="400px" />
-<img src="images/SRE_ANIm_graph.pdf" height="400px" />
+<img src="images/SRE_ANIm.png" height="400px" />
+<img src="images/SRE_ANIm_graph.png" height="400px" />
 
 ## Graph decomposition
 
 * Break down graphs (min. coverage, %identity)
 * Identify unique *cliques*
 
-<img src="images/thresholds.pdf" height="300px" />
-<img src="images/threshold_zeros_kde.pdf" height="300px" />
+<img src="images/thresholds.png" height="300px" />
+<img src="images/threshold_zeros_kde.png" height="300px" />
 
 * 'genus', 'species', 'clonal' groupings
 
@@ -360,7 +360,7 @@ Baltrus (2016) [doi:10.1016/j.tim.2016.02.004](https://dx.doi.org/j.tim.2016.02.
 
 ## Phyto-threats
 
-<img src="images/project_flyer.pdf" height="350px" />
+<img src="images/project_flyer.png" height="350px" />
 
 Forest Research, Centres for Ecology and Hydrology, University of Edinburgh, University of Worcester
 
@@ -427,7 +427,7 @@ Forest Research, Centres for Ecology and Hydrology, University of Edinburgh, Uni
 * Up to 75 CAZyme families in SRE
 * Mine genomes for more variants
 
-<img src="images/functional_space.pdf" height="400px" />
+<img src="images/functional_space.png" height="400px" />
 
 ## Generating diversity
 
@@ -435,7 +435,7 @@ Forest Research, Centres for Ecology and Hydrology, University of Edinburgh, Uni
 * Exploit/recombine natural diversity
 * Obtain novel structures
 
-<img src="images/generate_diversity.pdf" height="400px" />
+<img src="images/generate_diversity.png" height="400px" />
 
 ## Protein sectors
 
