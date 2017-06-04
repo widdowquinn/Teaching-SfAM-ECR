@@ -6,8 +6,9 @@
 2. [Schedule](#schedule)
 3. [Presentations](#presentations)
 4. [Workshop Notebooks](#notebooks)
-3. [Run Workshop in the Cloud on MyBinder](#mybinder)
-4. [Run Workshop on Your Own Machine](#local)
+5. [Run Workshop in the Cloud on MyBinder](#mybinder)
+6. [Run Workshop on Your Own Machine](#local)
+
 
 <a id="introduction"></a>
 ## Introduction
@@ -60,6 +61,7 @@ MyBinder is a service that allows you to run Jupyter notebooks in the cloud (i.e
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/widdowquinn/teaching-sfam-ecs)
 
 This approach has the advantage that it requires no further configuration: all materials and tools are pre-installed, and ready to go.
+
 
 <a id="local"></a>
 ## Run Workshop on Your Own Machine
