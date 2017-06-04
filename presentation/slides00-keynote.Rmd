@@ -20,6 +20,8 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/comics/didnt_work_autobiography.jpg" height="450px" />
 <img src="images/comics/what_i_planned.png" height="450px" />
 
+A wonky path to bioinformatics
+
 ## A confession
 
 <img src="images/comics/imposter_syndrome.jpg" height="450px" />
@@ -480,3 +482,6 @@ Halabi *et al.* (2009) [doi:10.1016/j.cell.2009.07.038](https://dx.doi.org/10.10
 * Work with good people
 * Read widely
 
+## Acknowledgements
+
+<img src="images/acknowledgements.png" height="500px" />

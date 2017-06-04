@@ -141,7 +141,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## This workshop
 
+**Presentations/workshop materials**
+
 [https://github.com/widdowquinn/Teaching-SfAM-ECS](https://github.com/widdowquinn/Teaching-SfAM-ECS)
+
+**Log in to workshop server**
+
+[http://35.177.230.183:8000](http://35.177.230.183:8000)
 
 ## A question
 
